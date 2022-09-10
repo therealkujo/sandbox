@@ -34,5 +34,5 @@ jobs:
         env:
           SUPER_SECRET_CERT: ${{ secrets.SUPER_SECRET_PEM }}
         run: |
-          pip install cryptography PyGitHub PyJWT
+          pip install cryptography PyGitHub==1.51 PyJWT==2.4.0
           python ./token.py
