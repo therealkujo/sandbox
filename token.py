@@ -1,4 +1,4 @@
-from github import Github, GithubIntegration
+from github import GithubIntegration
 import os
 
 private_key = os.environ['SUPER_SECRET_CERT']
